@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;;
+}
+
+/* Header and Nav Styles */
+header{
+    font-size:24px;
+    color:#f9faf8;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size:24px;
+    padding-left:120px;
+}
+
+.nav-links{
+    display: flex;
+    gap:16px;
+    padding-right:120px;
+}   
+
+nav ul{
+    list-style-type: none;
+    padding:0;
+}
+
+nav a{
+    text-decoration: none;
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+/* Content Style */
+
+.content{
+    display:flex;
+    padding:120px;
+    background-color: #1f2937;
+}
+
+.content-left{
+    padding:20px;
+}
+.content img{
+    display: block;
+    padding:8px;
+}
+
+.content .main-text{
+    font-size:48px;
+    color: #f9faf8;
+    font-weight:extra-bold;
+}
+
+.content .text{
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.content button{
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 8px;
+    padding:8px 30px;
+    border-width: 0;
+    font-weight:bold;
+}
+
+/* Random Info Styles */
+.random-info{
+    display:flex;
+    justify-content:center;
+    gap:24px;
+    padding:120px;
+}
+
+.random-info .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:200px;
+    height:300px;
+    margin: 5px;
+    background-color: white;
+    border-width: 3px;
+    text-align: center;
+}
+
+.random-info .card img{
+    width:150px;
+    height: 150px;
+    border-width:3px;
+    border-style:solid;
+    border-color: #3882f6;
+    border-radius:10px;
+}
+
+/* Quote Styles */
+
+.inspiring-quote{
+    padding:120px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.inspiring-quote h1{
+    font-size: 36px;
+    font-style:italic;  
+    font-weight:lighter;
+}
+
+.inspiring-quote p{
+    align-self: flex-end;
+    font-weight: bolder;    
+}
+
+/* Sign-up Styles */
+
+.sign-up{
+    display:flex;
+    justify-content: center;
+    padding:120px;
+}
+
+.sign-up-content{
+    display:flex;
+    background-color:#3882f6;
+    border-radius: 8px;
+    color:white;
+
+}
+
+.left-sign-up{
+    padding:30px;
+}
+
+.sign-up-button{
+    align-self:center;
+    padding:80px;
+}
+
+.sign-up-button button{
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 8px;
+    padding:8px 30px;
+    border-width: 1px;
+    font-weight:bold;
+    border-color:white;
+    border-style: solid;
+}
+
+/* Footer Styles */
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1f2937;
+    color:white;
+}
